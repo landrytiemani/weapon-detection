@@ -279,8 +279,8 @@ pipeline:
   labels_dir: data/test/labels
 
 stage_2:
-  approach: yolov8_tracker
-  crop_scale: 2.5
+  approach: yolov8_tracker # or: sd_mobilenet_bytetrack
+  crop_scale: 1.8
   use_tracker: true
   frame_gap: 1
   yolov8_tracker:
