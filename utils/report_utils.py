@@ -1,5 +1,5 @@
 """
-Reporting and plotting utilities for pipeline evaluation (Custom Evaluator only).
+Reporting and plotting utilities for pipeline evaluation.
 
 Public API:
 - ensure_dir
@@ -22,7 +22,7 @@ def ensure_dir(p: str) -> str:
 
 
 # -----------------------------------------------------------------------------
-# Detailed Report (Custom Evaluator only)
+# Detailed Report
 # -----------------------------------------------------------------------------
 def write_detailed_report(results, output_path, timestamp, model_name, class_names):
     """
