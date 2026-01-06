@@ -28,10 +28,10 @@ This repository contains the complete implementation for doctoral dissertation r
 
 | Metric | Improvement | Description |
 |--------|-------------|-------------|
-| 🎯 **mAP@0.5** | +46% | Over single-stage baselines |
-| 📉 **False Positives** | -71% | Through temporal tracking |
-| ⚡ **Real-time** | >30 FPS | On edge devices |
-| 🔒 **Privacy** | <10% overhead | Selective face blurring |
+|  **mAP@0.5** | +46% | Over single-stage baselines |
+|  **False Positives** | -71% | Through temporal tracking |
+| **Real-time** | >30 FPS | On edge devices |
+| **Privacy** | <10% overhead | Selective face blurring |
 
 ---
 
@@ -49,7 +49,6 @@ This repository contains the complete implementation for doctoral dissertation r
 ## Architecture
 
 ```
-<img width="908" height="284" alt="image" src="https://github.com/user-attachments/assets/36105a11-5165-40d2-9dbd-56ad496d4bc0" />
 
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                      MODULAR WEAPON DETECTION PIPELINE                       │
