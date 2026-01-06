@@ -1,0 +1,54 @@
+{
+  "no_privacy": {
+    "config_name": "no_privacy",
+    "privacy_enabled": false,
+    "privacy_scope": "none",
+    "privacy_method": "none",
+    "mAP50": 0.6789828072844541,
+    "precision": 0.7386759581881533,
+    "recall": 0.7386759581881533,
+    "f1": 0.7386759581881533,
+    "fp_count": 75,
+    "fps": 12.665194043450644,
+    "latency_ms": 78.95654788780078
+  },
+  "selective_pixelate": {
+    "config_name": "selective_pixelate",
+    "privacy_enabled": true,
+    "privacy_scope": "non_targets",
+    "privacy_method": "pixelate",
+    "mAP50": 0.6789828072844541,
+    "precision": 0.7386759581881533,
+    "recall": 0.7386759581881533,
+    "f1": 0.7386759581881533,
+    "fp_count": 75,
+    "fps": 13.707323872967548,
+    "latency_ms": 72.95370046461932
+  },
+  "selective_gaussian": {
+    "config_name": "selective_gaussian",
+    "privacy_enabled": true,
+    "privacy_scope": "non_targets",
+    "privacy_method": "gaussian",
+    "mAP50": 0.6789828072844541,
+    "precision": 0.7386759581881533,
+    "recall": 0.7386759581881533,
+    "f1": 0.7386759581881533,
+    "fp_count": 75,
+    "fps": 13.568495403701176,
+    "latency_ms": 73.70013920093328
+  },
+  "blanket_pixelate": {
+    "config_name": "blanket_pixelate",
+    "privacy_enabled": true,
+    "privacy_scope": "everyone",
+    "privacy_method": "pixelate",
+    "mAP50": 0.6789828072844541,
+    "precision": 0.7386759581881533,
+    "recall": 0.7386759581881533,
+    "f1": 0.7386759581881533,
+    "fp_count": 75,
+    "fps": 13.61282005915744,
+    "latency_ms": 73.46016443722056
+  }
+}

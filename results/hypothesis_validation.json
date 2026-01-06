@@ -1,0 +1,31 @@
+{
+  "H2.1": {
+    "description": "RT-DETR achieves 3-8% higher mAP50",
+    "rt_detr_mAP50": 0.6114560187992386,
+    "efficientvit_mAP50": 0.6789828072844541,
+    "difference_points": -6.752678848521554,
+    "expected_range": [
+      3.0,
+      8.0
+    ],
+    "hypothesis_supported": "False"
+  },
+  "H2.2": {
+    "description": "EfficientViT \u226590% accuracy at \u226450% cost",
+    "accuracy_ratio_percent": 111.04360516686431,
+    "cost_ratio_percent": 100,
+    "hypothesis_supported": false
+  },
+  "H2.3": {
+    "description": "Larger gap on knives than handguns",
+    "knife_gap_points": -14.6883147272382,
+    "handgun_gap_points": 1.1829570301950976,
+    "hypothesis_supported": "False"
+  },
+  "H2.4": {
+    "description": "Both \u226510 FPS",
+    "rt_detr_fps": 12.211403732216292,
+    "efficientvit_fps": 13.005474988683794,
+    "hypothesis_supported": true
+  }
+}
