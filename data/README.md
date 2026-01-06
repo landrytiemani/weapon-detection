@@ -6,7 +6,6 @@ data/
 ├── train/images/, labels/
 ├── val/images/, labels/
 ├── test/images/, labels/
-└── sample/  # For testing
 ```
 
 ## Format
