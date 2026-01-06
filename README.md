@@ -105,30 +105,30 @@ This repository contains the complete implementation for doctoral dissertation r
 ### RQ1: Modular Ablation Study
 > How do individual pipeline components contribute to detection accuracy?
 
-- ✅ Crop scale 2.0-2.5× optimal for weapon visibility
-- ✅ Overlap filtering reduces duplicates by >50%
-- ✅ Test-time augmentation improves mAP by 3-5%
+-  Crop scale 2.0-2.5× optimal for weapon visibility
+- Overlap filtering reduces duplicates by >50%
+- Test-time augmentation improves mAP by 3-5%
 
 ### RQ2: Architecture Comparison
 > How does RT-DETR compare to YOLOv8-EfficientViT?
 
-- ✅ RT-DETR achieves 5.2% higher mAP@0.5
-- ✅ EfficientViT maintains 93% accuracy at 13× less compute
-- ✅ Larger performance gap on knives vs handguns
+- RT-DETR achieves 5.2% higher mAP@0.5
+- EfficientViT maintains 93% accuracy at 13× less compute
+- Larger performance gap on knives vs handguns
 
 ### RQ3: Temporal Tracking
 > How does ByteTrack affect detection quality?
 
-- ✅ Tracking reduces false positives by 71%
-- ✅ Frame gap 3-5 maintains ≥95% accuracy
-- ✅ 17% speed improvement with gap=3
+- Tracking reduces false positives by 71%
+- Frame gap 3-5 maintains ≥95% accuracy
+- 17% speed improvement with gap=3
 
 ### RQ4: Privacy Preservation
 > Can privacy protection be achieved with minimal impact?
 
-- ✅ Selective face blurring adds only 8% latency
-- ✅ Privacy maintains mAP within 2%
-- ✅ Pixelation 5% faster than Gaussian blur
+- Selective face blurring adds only 8% latency
+- Privacy maintains mAP within 2%
+- Pixelation 5% faster than Gaussian blur
 
 ---
 
@@ -211,9 +211,9 @@ python RQ/compute_flops.py --results-dir Results/
 ```
 weapon-detection-pipeline/
 │
-├── main_perclass.py             # 🚀 Main entry point
-├── config.yaml                  # ⚙️ Primary configuration
-├── requirements.txt             # 📦 Dependencies
+├── main_perclass.py             #  Main entry point
+├── config.yaml                  #  Primary configuration
+├── requirements.txt             #  Dependencies
 │
 ├── stages/                      # Pipeline stages
 │   ├── stage_2_persondetection.py    # Person detection + tracking
