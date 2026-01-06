@@ -49,6 +49,8 @@ This repository contains the complete implementation for doctoral dissertation r
 ## Architecture
 
 ```
+<img width="908" height="284" alt="image" src="https://github.com/user-attachments/assets/36105a11-5165-40d2-9dbd-56ad496d4bc0" />
+
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                      MODULAR WEAPON DETECTION PIPELINE                       │
 ├─────────────────────────────────────────────────────────────────────────────┤
