@@ -96,7 +96,7 @@ This repository contains the complete implementation for doctoral dissertation r
 | Architecture | Type | GFLOPs | mAP@0.5 | Best For |
 |-------------|------|--------|---------|----------|
 | **RT-DETR** | Transformer | 81.4 | **0.721** | Accuracy-critical |
-| **YOLOv8-EfficientViT** | CNN | 6.2 | 0.669 | Edge deployment |
+| **YOLOv8-EfficientViT** | Transformer-CNN | 6.2 | 0.669 | Edge deployment |
 
 ---
 
