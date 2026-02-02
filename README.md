@@ -74,7 +74,8 @@ The complete framework (**YOLOv8n + EfficientViT-YOLOv8**) achieves **0.679 mAP5
 ## Architecture
 
 ```
-<img width="1703" height="556" alt="image" src="https://github.com/user-attachments/assets/fb673efc-a956-4392-b93e-e37b0987dd6b" />
+![Modular Weapon Detection Pipeline](docs/pipeline-overview.png)
+Figure: Overview of the modular framework with person detection and tracking, weapon detection, and integrated privacy-preserving module
 
 ```
 
