@@ -480,7 +480,6 @@ If you use this code in your research, please cite:
 - [ByteTrack](https://github.com/ifzhang/ByteTrack) — Multi-object tracking algorithm
 - [EfficientViT](https://github.com/mit-han-lab/efficientvit) — Efficient vision transformer backbone
 - **Harrisburg University of Science and Technology** — Doctoral program support
-- **Dr. Bellur Srikar** — Dissertation advisor
 
 ---
 
